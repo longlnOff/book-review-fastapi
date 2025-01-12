@@ -18,3 +18,6 @@ stop-db:
 
 start-db:
 	docker start my_postgres
+
+ruff_check:
+	ruff check
